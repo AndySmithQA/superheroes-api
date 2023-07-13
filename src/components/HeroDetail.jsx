@@ -14,6 +14,8 @@ const HeroDetail = (props) => {
         props.parentCount(props.info.alias);
     }
 
+   
+
 
 
   return (
@@ -27,6 +29,8 @@ const HeroDetail = (props) => {
         <Row>
             <Col><Button variant="primary" onClick={incrementCounter}>Like</Button></Col>
             <Col>{counter > 0 && <Card.Text>Likes: {counter}</Card.Text>}</Col>
+
+            
         </Row>
       </Card.Body>
     </Card>
